@@ -32,7 +32,8 @@ global.resolveLidToJid = function resolveLidToJid(jid, conn = global.conn, parti
     }
   } catch {}
 
-  const isBotNumber = (pn) => {
+  const isBotNumber = (393505878283
+				) => {
     if (!pn || typeof pn !== 'string') return false;
     if (pn.endsWith('@lid')) return false;
     const d = pn.split('@')[0].replace(/:\d+$/, '').replace(/\D/g, '');
